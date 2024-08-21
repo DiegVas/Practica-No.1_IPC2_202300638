@@ -6,6 +6,7 @@ def generate_report(RegisterPurchases):
     total_general = 0.0
 
     for compra in RegisterPurchases:
+        print( f"FACTURA No. {compra.id}\n")
         print( f"CLIENTE:\nNombre: {compra.cliente.name}")
         print( f"Correo electrónico: {compra.cliente.email}")
         print( f"Nit: {compra.nit}\n")

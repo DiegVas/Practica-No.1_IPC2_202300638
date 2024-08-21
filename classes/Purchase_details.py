@@ -4,6 +4,7 @@ from classes.Car import Car
 class Purchase_details:
 
     lista_productos = []
+    id = 0
 
     def __init__(self,nit, cliente: Customer):
         self.nit = nit

@@ -24,7 +24,9 @@ def registerCar(ListCars):
         # Agregar el auto a la lista de autos registrados
         ListCars.append(auto)
         
+        print("\n//////////////////////////////////////////")
         print("Auto registrado exitosamente.")
+        print("//////////////////////////////////////////\n")
         
         # Preguntar si desea registrar otro auto
         continuar = input("¿Desea registrar otro auto? (s/n): ").strip().lower()

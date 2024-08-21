@@ -36,11 +36,9 @@ def purchase(registerPurchases ,customers, cars):
             else:
                 purchase.costo_total = sum(car.precio_unitario for car in purchase.lista_productos)
             
-            
-            print (purchase.costo_total)
             break
         
         else:
             print("Opción no válida. Intente de nuevo.")
-            
+    purchase.id = len(registerPurchases) + 1       
     registerPurchases.append(purchase)
